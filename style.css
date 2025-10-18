@@ -13,7 +13,7 @@ fieldset {
   padding: 40px;
 margin: 40px;
 position: relative;
-background-color: beige;
+background-color: #B0E0E6;
  
 }
 
@@ -65,17 +65,8 @@ gap: 40px;
   border: 1px solid black;
   margin: 20px 0;
 }
-.objective {
-  display: flex;
-  gap: 70px; 
-
-}
-.objective p {
-  font-size: 16px;
-  text-align: justify; 
-  max-width: 600px; 
-  margin: 0; 
-}
+.objective { display: flex; gap: 150px; width: 100%; }
+.objective p { font-size: 16px; text-align: justify; max-width: 80%; flex-grow: 1; margin: 0; }
 .container {
   display: flex; 
   align-items: center;
